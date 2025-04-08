@@ -15,15 +15,41 @@ Rossmann operates over 3,000 drug stores in 7 European countries. The goal of th
 
 ## 🧰 Tech Stack
 
-- **Language:** Python
-- **Notebook:** Jupyter (IPYNB)
-- **Cloud Services:** AWS S3, RDS, Lambda, SageMaker
-- **ML Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
-- **Visualization:** Power BI / AWS QuickSight
+- **Language:** Python  
+- **Notebook:** Jupyter (IPYNB)  
+- **Cloud Services:** AWS S3, RDS, Lambda, SageMaker  
+- **ML Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn  
+- **Visualization:** Power BI / AWS QuickSight  
 
 ## 🧪 How to Run
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/rossmann-sales-prediction.git
-   cd rossmann-sales-prediction
+1. Set up a virtual environment and install dependencies:
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # or venv\Scripts\activate on Windows
+    pip install -r requirements.txt
+    ```
+
+2. Run the notebook:
+
+    ```bash
+    jupyter notebook
+    ```
+
+3. *(Optional)* Configure AWS credentials to access S3/RDS resources.
+
+---
+
+## 📁 File Structure
+
+📦 rossmann-sales-prediction
+├── data/               # Raw and processed data
+├── notebooks/          # Jupyter notebooks
+├── models/             # Saved ML models
+├── src/                # Source scripts for preprocessing, training, etc.
+├── visualizations/     # Reports, charts, dashboards
+├── README.md
+└── requirements.txt
+
+

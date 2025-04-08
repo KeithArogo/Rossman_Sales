@@ -1,4 +1,4 @@
-# 📈 Rossmann Sales Prediction
+# Rossmann Sales Prediction📈 
 
 Welcome to the Rossmann Sales Prediction project! This repo contains an end-to-end data science pipeline designed to forecast daily sales for Rossmann stores. Built using a mix of AWS services, Jupyter Notebooks, and pure machine learning wizardry.
 

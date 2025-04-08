@@ -3,11 +3,8 @@
 -	How this can systematically be used for future work. 
 -   Make Repo Public.
 
-Structural Preferences and Why
-Add code for data pre-processing - compile all code that went into data pre-processing,
-Add code for model training
-Add code for metric visualisation (Automatic After Training & Also Evaluation)
-
-
-- Run train.py that will automatically
-- Comparative, we can compare different models
+- Why is training so fast - epochs?
+- Understanding the model's scoring.
+- A way to easily adjust the ML models and it's parameters.
+- Visualisations being added to the visualisations folder for both training & evaluation.
+- Too manu un-used python files.

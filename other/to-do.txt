@@ -1,0 +1,13 @@
+-	Set Up a similar file system as the one outlined in the README, maybe separate training and evaluation too.
+-	Set up some illustrations.
+-	How this can systematically be used for future work. 
+-   Make Repo Public.
+
+Structural Preferences and Why
+Add code for data pre-processing - compile all code that went into data pre-processing,
+Add code for model training
+Add code for metric visualisation (Automatic After Training & Also Evaluation)
+
+
+- Run train.py that will automatically
+- Comparative, we can compare different models

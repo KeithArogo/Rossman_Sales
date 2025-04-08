@@ -42,7 +42,7 @@ Rossmann operates over 3,000 drug stores in 7 European countries. The goal of th
 ---
 
 ## 📁 File Structure
-
+```bash
 📦 rossmann-sales-prediction
 ├── data/               # Raw and processed data
 ├── notebooks/          # Jupyter notebooks
@@ -51,5 +51,4 @@ Rossmann operates over 3,000 drug stores in 7 European countries. The goal of th
 ├── visualizations/     # Reports, charts, dashboards
 ├── README.md
 └── requirements.txt
-
-
+    
